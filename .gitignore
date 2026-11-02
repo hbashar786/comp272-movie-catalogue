@@ -1,0 +1,28 @@
+# Dataset: never commit it
+data/*
+!data/.gitkeep
+!data/README.md
+*.zip
+
+# Build output
+target/
+out/
+bin/
+build/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmark logs / heap dumps
+*.log
+*.hprof
